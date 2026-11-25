@@ -1,0 +1,22 @@
+# Local Android / Gradle state
+**/.gradle/
+**/build/
+local.properties
+**/local.properties
+
+# Never commit signing material or credentials
+*.jks
+*.keystore
+keystore.properties
+**/keystore.properties
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+google-services.json
+**/google-services.json
+
+# Generated outputs
+**/mapping.txt
+*-sources.jar
